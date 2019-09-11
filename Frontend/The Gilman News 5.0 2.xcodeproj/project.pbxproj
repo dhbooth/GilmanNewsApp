@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70843B091E141FB90080548B /* staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 70843B081E141FB90080548B /* staff.m */; };
+		70CB285F1D978D57006750A6 /* subscribebutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CB285E1D978D57006750A6 /* subscribebutton.m */; };
+		70D2ED381D6ECF7500D38D07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED371D6ECF7500D38D07 /* main.m */; };
+		70D2ED3B1D6ECF7500D38D07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED3A1D6ECF7500D38D07 /* AppDelegate.m */; };
+		70D2ED441D6ECF7500D38D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D2ED421D6ECF7500D38D07 /* Main.storyboard */; };
+		70D2ED541D6ECF7500D38D07 /* The_Gilman_News_5_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED531D6ECF7500D38D07 /* The_Gilman_News_5_0Tests.m */; };
+		70D2ED5F1D6ECF7500D38D07 /* The_Gilman_News_5_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED5E1D6ECF7500D38D07 /* The_Gilman_News_5_0UITests.m */; };
+		70D2ED6E1D6ED20300D38D07 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED6D1D6ED20300D38D07 /* News.m */; };
+		70D2ED711D6ED33500D38D07 /* Today.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED701D6ED33500D38D07 /* Today.m */; };
+		70D2ED741D6ED4A600D38D07 /* Submissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED731D6ED4A600D38D07 /* Submissions.m */; };
+		70D2ED771D6ED4FA00D38D07 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED761D6ED4FA00D38D07 /* Photos.m */; };
+		70D2ED7A1D6ED50A00D38D07 /* Articles.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED791D6ED50A00D38D07 /* Articles.m */; };
+		70D2ED7D1D6ED52200D38D07 /* Article Ideas.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED7C1D6ED52200D38D07 /* Article Ideas.m */; };
+		70D2ED801D6ED53700D38D07 /* LTEs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED7F1D6ED53700D38D07 /* LTEs.m */; };
+		70D2ED841D6ED57500D38D07 /* QNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED831D6ED57500D38D07 /* QNC.m */; };
+		70D2ED861D6ED6CC00D38D07 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2ED851D6ED6CC00D38D07 /* MessageUI.framework */; };
+		70D2ED891D6ED9CD00D38D07 /* Subsribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED881D6ED9CD00D38D07 /* Subsribe.m */; };
+		70D2ED8C1D6EDA9C00D38D07 /* More.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED8B1D6EDA9C00D38D07 /* More.m */; };
+		70D2ED921D6EDB6300D38D07 /* Archives.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED911D6EDB6300D38D07 /* Archives.m */; };
+		70D2ED951D6EDBE800D38D07 /* Writers.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED941D6EDBE800D38D07 /* Writers.m */; };
+		70D2ED981D7FC4B900D38D07 /* App Exclusives.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED971D7FC4B900D38D07 /* App Exclusives.m */; };
+		70D2ED9B1D7FC5A200D38D07 /* Polls.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED9A1D7FC5A200D38D07 /* Polls.m */; };
+		70D2ED9E1D7FC5B900D38D07 /* Past Highlights.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2ED9D1D7FC5B900D38D07 /* Past Highlights.m */; };
+		70D2EDA11D7FC5DE00D38D07 /* App Articles.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDA01D7FC5DE00D38D07 /* App Articles.m */; };
+		70D2EDA31D7FC9AD00D38D07 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D2EDA21D7FC9AD00D38D07 /* Launch Screen.storyboard */; };
+		70D2EDA61D835DC100D38D07 /* GTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDA51D835DC100D38D07 /* GTV.m */; };
+		70D2EDA81D84BE9D00D38D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D2EDA71D84BE9D00D38D07 /* Assets.xcassets */; };
+		70D2EDAB1D84DFA100D38D07 /* ArchivesNEW.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDAA1D84DFA100D38D07 /* ArchivesNEW.m */; };
+		70D2EDE71D84FDA300D38D07 /* donesegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDE61D84FDA300D38D07 /* donesegue.m */; };
+		70D2EDEA1D851D5900D38D07 /* fourteenfifteen.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDE91D851D5900D38D07 /* fourteenfifteen.m */; };
+		70D2EDED1D8520F100D38D07 /* fifteensixteen.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDEC1D8520F100D38D07 /* fifteensixteen.m */; };
+		70D2EDF31D8521FE00D38D07 /* thirtfourt.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDF21D8521FE00D38D07 /* thirtfourt.m */; };
+		70D2EDF61D8522B900D38D07 /* twelvethirt.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDF51D8522B900D38D07 /* twelvethirt.m */; };
+		70D2EDF91D85232B00D38D07 /* elevtwelve.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDF81D85232B00D38D07 /* elevtwelve.m */; };
+		70D2EDFC1D8523AF00D38D07 /* tenelev.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDFB1D8523AF00D38D07 /* tenelev.m */; };
+		70D2EDFF1D85244A00D38D07 /* ninten.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EDFE1D85244A00D38D07 /* ninten.m */; };
+		70D2EE021D8524E500D38D07 /* eightnin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE011D8524E500D38D07 /* eightnin.m */; };
+		70D2EE051D85258000D38D07 /* seveight.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE041D85258000D38D07 /* seveight.m */; };
+		70D2EE081D85260500D38D07 /* sixsev.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE071D85260500D38D07 /* sixsev.m */; };
+		70D2EE0B1D85267200D38D07 /* fivsix.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE0A1D85267200D38D07 /* fivsix.m */; };
+		70D2EE0E1D8526E600D38D07 /* fourfiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE0D1D8526E600D38D07 /* fourfiv.m */; };
+		70D2EE111D85279000D38D07 /* thrfour.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE101D85279000D38D07 /* thrfour.m */; };
+		70D2EE141D8527FC00D38D07 /* twothr.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE131D8527FC00D38D07 /* twothr.m */; };
+		70D2EE171D85289C00D38D07 /* ontwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE161D85289C00D38D07 /* ontwo.m */; };
+		70D2EE1A1D85291100D38D07 /* zeron.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2EE191D85291100D38D07 /* zeron.m */; };
+		70FE4A141D9A2FE70083149E /* problems.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FE4A131D9A2FE70083149E /* problems.m */; };
+		70FE4A171D9A3E300083149E /* reports.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FE4A161D9A3E300083149E /* reports.m */; };
+		70FE4A1A1D9A3F030083149E /* sportsstats.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FE4A191D9A3F030083149E /* sportsstats.m */; };
+		70FE4A1D1D9B7C730083149E /* subscribeA.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FE4A1C1D9B7C730083149E /* subscribeA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D2ED501D6ECF7500D38D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D2ED2B1D6ECF7500D38D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D2ED321D6ECF7500D38D07;
+			remoteInfo = "The Gilman News 5.0";
+		};
+		70D2ED5B1D6ECF7500D38D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D2ED2B1D6ECF7500D38D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D2ED321D6ECF7500D38D07;
+			remoteInfo = "The Gilman News 5.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70843B071E141FB90080548B /* staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = staff.h; sourceTree = "<group>"; };
+		70843B081E141FB90080548B /* staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = staff.m; sourceTree = "<group>"; };
+		70CB285D1D978D57006750A6 /* subscribebutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subscribebutton.h; sourceTree = "<group>"; };
+		70CB285E1D978D57006750A6 /* subscribebutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subscribebutton.m; sourceTree = "<group>"; };
+		70D2ED331D6ECF7500D38D07 /* The Gilman News 5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Gilman News 5.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D2ED371D6ECF7500D38D07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70D2ED391D6ECF7500D38D07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70D2ED3A1D6ECF7500D38D07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70D2ED431D6ECF7500D38D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70D2ED4A1D6ECF7500D38D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D2ED4F1D6ECF7500D38D07 /* The Gilman News 5.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Gilman News 5.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D2ED531D6ECF7500D38D07 /* The_Gilman_News_5_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Gilman_News_5_0Tests.m; sourceTree = "<group>"; };
+		70D2ED551D6ECF7500D38D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D2ED5A1D6ECF7500D38D07 /* The Gilman News 5.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Gilman News 5.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D2ED5E1D6ECF7500D38D07 /* The_Gilman_News_5_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Gilman_News_5_0UITests.m; sourceTree = "<group>"; };
+		70D2ED601D6ECF7500D38D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D2ED6C1D6ED20300D38D07 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = News.h; path = ../News.h; sourceTree = "<group>"; };
+		70D2ED6D1D6ED20300D38D07 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = News.m; path = ../News.m; sourceTree = "<group>"; };
+		70D2ED6F1D6ED33500D38D07 /* Today.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Today.h; path = ../Today.h; sourceTree = "<group>"; };
+		70D2ED701D6ED33500D38D07 /* Today.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Today.m; path = ../Today.m; sourceTree = "<group>"; };
+		70D2ED721D6ED4A600D38D07 /* Submissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submissions.h; sourceTree = "<group>"; };
+		70D2ED731D6ED4A600D38D07 /* Submissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submissions.m; sourceTree = "<group>"; };
+		70D2ED751D6ED4FA00D38D07 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		70D2ED761D6ED4FA00D38D07 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		70D2ED781D6ED50A00D38D07 /* Articles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Articles.h; sourceTree = "<group>"; };
+		70D2ED791D6ED50A00D38D07 /* Articles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Articles.m; sourceTree = "<group>"; };
+		70D2ED7B1D6ED52200D38D07 /* Article Ideas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Article Ideas.h"; sourceTree = "<group>"; };
+		70D2ED7C1D6ED52200D38D07 /* Article Ideas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Article Ideas.m"; sourceTree = "<group>"; };
+		70D2ED7E1D6ED53700D38D07 /* LTEs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTEs.h; sourceTree = "<group>"; };
+		70D2ED7F1D6ED53700D38D07 /* LTEs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTEs.m; sourceTree = "<group>"; };
+		70D2ED821D6ED57500D38D07 /* QNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNC.h; sourceTree = "<group>"; };
+		70D2ED831D6ED57500D38D07 /* QNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNC.m; sourceTree = "<group>"; };
+		70D2ED851D6ED6CC00D38D07 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		70D2ED871D6ED9CD00D38D07 /* Subsribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subsribe.h; sourceTree = "<group>"; };
+		70D2ED881D6ED9CD00D38D07 /* Subsribe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subsribe.m; sourceTree = "<group>"; };
+		70D2ED8A1D6EDA9C00D38D07 /* More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = More.h; path = ../More.h; sourceTree = "<group>"; };
+		70D2ED8B1D6EDA9C00D38D07 /* More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = More.m; path = ../More.m; sourceTree = "<group>"; };
+		70D2ED901D6EDB6300D38D07 /* Archives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archives.h; sourceTree = "<group>"; };
+		70D2ED911D6EDB6300D38D07 /* Archives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archives.m; sourceTree = "<group>"; };
+		70D2ED931D6EDBE800D38D07 /* Writers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Writers.h; sourceTree = "<group>"; };
+		70D2ED941D6EDBE800D38D07 /* Writers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Writers.m; sourceTree = "<group>"; };
+		70D2ED961D7FC4B900D38D07 /* App Exclusives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "App Exclusives.h"; path = "The Gilman News 5.0/App Exclusives.h"; sourceTree = "<group>"; };
+		70D2ED971D7FC4B900D38D07 /* App Exclusives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "App Exclusives.m"; path = "The Gilman News 5.0/App Exclusives.m"; sourceTree = "<group>"; };
+		70D2ED991D7FC5A200D38D07 /* Polls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polls.h; sourceTree = "<group>"; };
+		70D2ED9A1D7FC5A200D38D07 /* Polls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polls.m; sourceTree = "<group>"; };
+		70D2ED9C1D7FC5B900D38D07 /* Past Highlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Past Highlights.h"; sourceTree = "<group>"; };
+		70D2ED9D1D7FC5B900D38D07 /* Past Highlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Past Highlights.m"; sourceTree = "<group>"; };
+		70D2ED9F1D7FC5DE00D38D07 /* App Articles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "App Articles.h"; sourceTree = "<group>"; };
+		70D2EDA01D7FC5DE00D38D07 /* App Articles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "App Articles.m"; sourceTree = "<group>"; };
+		70D2EDA21D7FC9AD00D38D07 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		70D2EDA41D835DC100D38D07 /* GTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTV.h; sourceTree = "<group>"; };
+		70D2EDA51D835DC100D38D07 /* GTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTV.m; sourceTree = "<group>"; };
+		70D2EDA71D84BE9D00D38D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		70D2EDA91D84DFA100D38D07 /* ArchivesNEW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchivesNEW.h; sourceTree = "<group>"; };
+		70D2EDAA1D84DFA100D38D07 /* ArchivesNEW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchivesNEW.m; sourceTree = "<group>"; };
+		70D2EDE51D84FDA300D38D07 /* donesegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = donesegue.h; sourceTree = "<group>"; };
+		70D2EDE61D84FDA300D38D07 /* donesegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = donesegue.m; sourceTree = "<group>"; };
+		70D2EDE81D851D5900D38D07 /* fourteenfifteen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fourteenfifteen.h; path = "The Gilman News 5.0/fourteenfifteen.h"; sourceTree = "<group>"; };
+		70D2EDE91D851D5900D38D07 /* fourteenfifteen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fourteenfifteen.m; path = "The Gilman News 5.0/fourteenfifteen.m"; sourceTree = "<group>"; };
+		70D2EDEB1D8520F100D38D07 /* fifteensixteen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fifteensixteen.h; path = "The Gilman News 5.0/fifteensixteen.h"; sourceTree = "<group>"; };
+		70D2EDEC1D8520F100D38D07 /* fifteensixteen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fifteensixteen.m; path = "The Gilman News 5.0/fifteensixteen.m"; sourceTree = "<group>"; };
+		70D2EDF11D8521FE00D38D07 /* thirtfourt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirtfourt.h; sourceTree = "<group>"; };
+		70D2EDF21D8521FE00D38D07 /* thirtfourt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirtfourt.m; sourceTree = "<group>"; };
+		70D2EDF41D8522B900D38D07 /* twelvethirt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twelvethirt.h; sourceTree = "<group>"; };
+		70D2EDF51D8522B900D38D07 /* twelvethirt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twelvethirt.m; sourceTree = "<group>"; };
+		70D2EDF71D85232B00D38D07 /* elevtwelve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elevtwelve.h; sourceTree = "<group>"; };
+		70D2EDF81D85232B00D38D07 /* elevtwelve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = elevtwelve.m; sourceTree = "<group>"; };
+		70D2EDFA1D8523AF00D38D07 /* tenelev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tenelev.h; sourceTree = "<group>"; };
+		70D2EDFB1D8523AF00D38D07 /* tenelev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tenelev.m; sourceTree = "<group>"; };
+		70D2EDFD1D85244A00D38D07 /* ninten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ninten.h; sourceTree = "<group>"; };
+		70D2EDFE1D85244A00D38D07 /* ninten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ninten.m; sourceTree = "<group>"; };
+		70D2EE001D8524E500D38D07 /* eightnin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eightnin.h; sourceTree = "<group>"; };
+		70D2EE011D8524E500D38D07 /* eightnin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eightnin.m; sourceTree = "<group>"; };
+		70D2EE031D85258000D38D07 /* seveight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seveight.h; sourceTree = "<group>"; };
+		70D2EE041D85258000D38D07 /* seveight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = seveight.m; sourceTree = "<group>"; };
+		70D2EE061D85260500D38D07 /* sixsev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixsev.h; sourceTree = "<group>"; };
+		70D2EE071D85260500D38D07 /* sixsev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixsev.m; sourceTree = "<group>"; };
+		70D2EE091D85267200D38D07 /* fivsix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fivsix.h; sourceTree = "<group>"; };
+		70D2EE0A1D85267200D38D07 /* fivsix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fivsix.m; sourceTree = "<group>"; };
+		70D2EE0C1D8526E600D38D07 /* fourfiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourfiv.h; sourceTree = "<group>"; };
+		70D2EE0D1D8526E600D38D07 /* fourfiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourfiv.m; sourceTree = "<group>"; };
+		70D2EE0F1D85279000D38D07 /* thrfour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thrfour.h; sourceTree = "<group>"; };
+		70D2EE101D85279000D38D07 /* thrfour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thrfour.m; sourceTree = "<group>"; };
+		70D2EE121D8527FC00D38D07 /* twothr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twothr.h; sourceTree = "<group>"; };
+		70D2EE131D8527FC00D38D07 /* twothr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twothr.m; sourceTree = "<group>"; };
+		70D2EE151D85289C00D38D07 /* ontwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ontwo.h; sourceTree = "<group>"; };
+		70D2EE161D85289C00D38D07 /* ontwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ontwo.m; sourceTree = "<group>"; };
+		70D2EE181D85291100D38D07 /* zeron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zeron.h; sourceTree = "<group>"; };
+		70D2EE191D85291100D38D07 /* zeron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zeron.m; sourceTree = "<group>"; };
+		70FE4A121D9A2FE70083149E /* problems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = problems.h; path = "The Gilman News 5.0/problems.h"; sourceTree = "<group>"; };
+		70FE4A131D9A2FE70083149E /* problems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = problems.m; path = "The Gilman News 5.0/problems.m"; sourceTree = "<group>"; };
+		70FE4A151D9A3E300083149E /* reports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reports.h; path = "The Gilman News 5.0/reports.h"; sourceTree = "<group>"; };
+		70FE4A161D9A3E300083149E /* reports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = reports.m; path = "The Gilman News 5.0/reports.m"; sourceTree = "<group>"; };
+		70FE4A181D9A3F030083149E /* sportsstats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sportsstats.h; path = "The Gilman News 5.0/sportsstats.h"; sourceTree = "<group>"; };
+		70FE4A191D9A3F030083149E /* sportsstats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sportsstats.m; path = "The Gilman News 5.0/sportsstats.m"; sourceTree = "<group>"; };
+		70FE4A1B1D9B7C730083149E /* subscribeA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subscribeA.h; sourceTree = "<group>"; };
+		70FE4A1C1D9B7C730083149E /* subscribeA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subscribeA.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D2ED301D6ECF7500D38D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D2ED861D6ED6CC00D38D07 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED4C1D6ECF7500D38D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED571D6ECF7500D38D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D2ED2A1D6ECF7500D38D07 = {
+			isa = PBXGroup;
+			children = (
+				70D2ED851D6ED6CC00D38D07 /* MessageUI.framework */,
+				70D2ED351D6ECF7500D38D07 /* The Gilman News 5.0 */,
+				70D2ED521D6ECF7500D38D07 /* The Gilman News 5.0Tests */,
+				70D2ED5D1D6ECF7500D38D07 /* The Gilman News 5.0UITests */,
+				70D2ED341D6ECF7500D38D07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70D2ED341D6ECF7500D38D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED331D6ECF7500D38D07 /* The Gilman News 5.0.app */,
+				70D2ED4F1D6ECF7500D38D07 /* The Gilman News 5.0Tests.xctest */,
+				70D2ED5A1D6ECF7500D38D07 /* The Gilman News 5.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D2ED351D6ECF7500D38D07 /* The Gilman News 5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED391D6ECF7500D38D07 /* AppDelegate.h */,
+				70D2ED3A1D6ECF7500D38D07 /* AppDelegate.m */,
+				70D2ED6C1D6ED20300D38D07 /* News.h */,
+				70D2ED6D1D6ED20300D38D07 /* News.m */,
+				70CB285D1D978D57006750A6 /* subscribebutton.h */,
+				70CB285E1D978D57006750A6 /* subscribebutton.m */,
+				70FE4A1B1D9B7C730083149E /* subscribeA.h */,
+				70FE4A1C1D9B7C730083149E /* subscribeA.m */,
+				70D2ED8A1D6EDA9C00D38D07 /* More.h */,
+				70D2ED8B1D6EDA9C00D38D07 /* More.m */,
+				70D2ED6F1D6ED33500D38D07 /* Today.h */,
+				70D2ED701D6ED33500D38D07 /* Today.m */,
+				70D2EDAF1D84E5BD00D38D07 /* Archives */,
+				70D2EDAE1D84E07200D38D07 /* App Exclusives */,
+				70D2EDAD1D84E02F00D38D07 /* Submissions */,
+				70D2EDA21D7FC9AD00D38D07 /* Launch Screen.storyboard */,
+				70D2ED421D6ECF7500D38D07 /* Main.storyboard */,
+				70D2EDE51D84FDA300D38D07 /* donesegue.h */,
+				70D2EDE61D84FDA300D38D07 /* donesegue.m */,
+				70843B071E141FB90080548B /* staff.h */,
+				70843B081E141FB90080548B /* staff.m */,
+				70D2ED4A1D6ECF7500D38D07 /* Info.plist */,
+				70D2EDA71D84BE9D00D38D07 /* Assets.xcassets */,
+				70D2ED361D6ECF7500D38D07 /* Supporting Files */,
+			);
+			path = "The Gilman News 5.0";
+			sourceTree = "<group>";
+		};
+		70D2ED361D6ECF7500D38D07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED371D6ECF7500D38D07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70D2ED521D6ECF7500D38D07 /* The Gilman News 5.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED531D6ECF7500D38D07 /* The_Gilman_News_5_0Tests.m */,
+				70D2ED551D6ECF7500D38D07 /* Info.plist */,
+			);
+			path = "The Gilman News 5.0Tests";
+			sourceTree = "<group>";
+		};
+		70D2ED5D1D6ECF7500D38D07 /* The Gilman News 5.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED5E1D6ECF7500D38D07 /* The_Gilman_News_5_0UITests.m */,
+				70D2ED601D6ECF7500D38D07 /* Info.plist */,
+			);
+			path = "The Gilman News 5.0UITests";
+			sourceTree = "<group>";
+		};
+		70D2EDAC1D84DFB100D38D07 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				70D2EDA41D835DC100D38D07 /* GTV.h */,
+				70D2EDA51D835DC100D38D07 /* GTV.m */,
+				70D2ED931D6EDBE800D38D07 /* Writers.h */,
+				70D2ED941D6EDBE800D38D07 /* Writers.m */,
+				70D2ED901D6EDB6300D38D07 /* Archives.h */,
+				70D2ED911D6EDB6300D38D07 /* Archives.m */,
+				70D2ED871D6ED9CD00D38D07 /* Subsribe.h */,
+				70D2ED881D6ED9CD00D38D07 /* Subsribe.m */,
+				70FE4A121D9A2FE70083149E /* problems.h */,
+				70FE4A131D9A2FE70083149E /* problems.m */,
+				70FE4A151D9A3E300083149E /* reports.h */,
+				70FE4A161D9A3E300083149E /* reports.m */,
+				70FE4A181D9A3F030083149E /* sportsstats.h */,
+				70FE4A191D9A3F030083149E /* sportsstats.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		70D2EDAD1D84E02F00D38D07 /* Submissions */ = {
+			isa = PBXGroup;
+			children = (
+				70D2ED721D6ED4A600D38D07 /* Submissions.h */,
+				70D2ED731D6ED4A600D38D07 /* Submissions.m */,
+				70D2ED751D6ED4FA00D38D07 /* Photos.h */,
+				70D2ED761D6ED4FA00D38D07 /* Photos.m */,
+				70D2ED781D6ED50A00D38D07 /* Articles.h */,
+				70D2ED791D6ED50A00D38D07 /* Articles.m */,
+				70D2ED7B1D6ED52200D38D07 /* Article Ideas.h */,
+				70D2ED7C1D6ED52200D38D07 /* Article Ideas.m */,
+				70D2ED7E1D6ED53700D38D07 /* LTEs.h */,
+				70D2ED7F1D6ED53700D38D07 /* LTEs.m */,
+				70D2ED821D6ED57500D38D07 /* QNC.h */,
+				70D2ED831D6ED57500D38D07 /* QNC.m */,
+			);
+			name = Submissions;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		70D2EDAE1D84E07200D38D07 /* App Exclusives */ = {
+			isa = PBXGroup;
+			children = (
+				70D2EDAC1D84DFB100D38D07 /* More */,
+				70D2ED961D7FC4B900D38D07 /* App Exclusives.h */,
+				70D2ED971D7FC4B900D38D07 /* App Exclusives.m */,
+				70D2ED991D7FC5A200D38D07 /* Polls.h */,
+				70D2ED9A1D7FC5A200D38D07 /* Polls.m */,
+				70D2ED9F1D7FC5DE00D38D07 /* App Articles.h */,
+				70D2EDA01D7FC5DE00D38D07 /* App Articles.m */,
+				70D2ED9C1D7FC5B900D38D07 /* Past Highlights.h */,
+				70D2ED9D1D7FC5B900D38D07 /* Past Highlights.m */,
+			);
+			name = "App Exclusives";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		70D2EDAF1D84E5BD00D38D07 /* Archives */ = {
+			isa = PBXGroup;
+			children = (
+				70D2EDA91D84DFA100D38D07 /* ArchivesNEW.h */,
+				70D2EDAA1D84DFA100D38D07 /* ArchivesNEW.m */,
+				70D2EDEB1D8520F100D38D07 /* fifteensixteen.h */,
+				70D2EDEC1D8520F100D38D07 /* fifteensixteen.m */,
+				70D2EDE81D851D5900D38D07 /* fourteenfifteen.h */,
+				70D2EDE91D851D5900D38D07 /* fourteenfifteen.m */,
+				70D2EDF11D8521FE00D38D07 /* thirtfourt.h */,
+				70D2EDF21D8521FE00D38D07 /* thirtfourt.m */,
+				70D2EDF41D8522B900D38D07 /* twelvethirt.h */,
+				70D2EDF51D8522B900D38D07 /* twelvethirt.m */,
+				70D2EDF71D85232B00D38D07 /* elevtwelve.h */,
+				70D2EDF81D85232B00D38D07 /* elevtwelve.m */,
+				70D2EDFA1D8523AF00D38D07 /* tenelev.h */,
+				70D2EDFB1D8523AF00D38D07 /* tenelev.m */,
+				70D2EDFD1D85244A00D38D07 /* ninten.h */,
+				70D2EDFE1D85244A00D38D07 /* ninten.m */,
+				70D2EE001D8524E500D38D07 /* eightnin.h */,
+				70D2EE011D8524E500D38D07 /* eightnin.m */,
+				70D2EE031D85258000D38D07 /* seveight.h */,
+				70D2EE041D85258000D38D07 /* seveight.m */,
+				70D2EE061D85260500D38D07 /* sixsev.h */,
+				70D2EE071D85260500D38D07 /* sixsev.m */,
+				70D2EE091D85267200D38D07 /* fivsix.h */,
+				70D2EE0A1D85267200D38D07 /* fivsix.m */,
+				70D2EE0C1D8526E600D38D07 /* fourfiv.h */,
+				70D2EE0D1D8526E600D38D07 /* fourfiv.m */,
+				70D2EE0F1D85279000D38D07 /* thrfour.h */,
+				70D2EE101D85279000D38D07 /* thrfour.m */,
+				70D2EE121D8527FC00D38D07 /* twothr.h */,
+				70D2EE131D8527FC00D38D07 /* twothr.m */,
+				70D2EE151D85289C00D38D07 /* ontwo.h */,
+				70D2EE161D85289C00D38D07 /* ontwo.m */,
+				70D2EE181D85291100D38D07 /* zeron.h */,
+				70D2EE191D85291100D38D07 /* zeron.m */,
+			);
+			name = Archives;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70D2ED321D6ECF7500D38D07 /* The Gilman News 5.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D2ED631D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0" */;
+			buildPhases = (
+				70D2ED2F1D6ECF7500D38D07 /* Sources */,
+				70D2ED301D6ECF7500D38D07 /* Frameworks */,
+				70D2ED311D6ECF7500D38D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Gilman News 5.0";
+			productName = "The Gilman News 5.0";
+			productReference = 70D2ED331D6ECF7500D38D07 /* The Gilman News 5.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70D2ED4E1D6ECF7500D38D07 /* The Gilman News 5.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D2ED661D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0Tests" */;
+			buildPhases = (
+				70D2ED4B1D6ECF7500D38D07 /* Sources */,
+				70D2ED4C1D6ECF7500D38D07 /* Frameworks */,
+				70D2ED4D1D6ECF7500D38D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D2ED511D6ECF7500D38D07 /* PBXTargetDependency */,
+			);
+			name = "The Gilman News 5.0Tests";
+			productName = "The Gilman News 5.0Tests";
+			productReference = 70D2ED4F1D6ECF7500D38D07 /* The Gilman News 5.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70D2ED591D6ECF7500D38D07 /* The Gilman News 5.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D2ED691D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0UITests" */;
+			buildPhases = (
+				70D2ED561D6ECF7500D38D07 /* Sources */,
+				70D2ED571D6ECF7500D38D07 /* Frameworks */,
+				70D2ED581D6ECF7500D38D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D2ED5C1D6ECF7500D38D07 /* PBXTargetDependency */,
+			);
+			name = "The Gilman News 5.0UITests";
+			productName = "The Gilman News 5.0UITests";
+			productReference = 70D2ED5A1D6ECF7500D38D07 /* The Gilman News 5.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70D2ED2B1D6ECF7500D38D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Davis Booth";
+				TargetAttributes = {
+					70D2ED321D6ECF7500D38D07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TL9BB86JQV;
+					};
+					70D2ED4E1D6ECF7500D38D07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 70D2ED321D6ECF7500D38D07;
+					};
+					70D2ED591D6ECF7500D38D07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 70D2ED321D6ECF7500D38D07;
+					};
+				};
+			};
+			buildConfigurationList = 70D2ED2E1D6ECF7500D38D07 /* Build configuration list for PBXProject "The Gilman News 5.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70D2ED2A1D6ECF7500D38D07;
+			productRefGroup = 70D2ED341D6ECF7500D38D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70D2ED321D6ECF7500D38D07 /* The Gilman News 5.0 */,
+				70D2ED4E1D6ECF7500D38D07 /* The Gilman News 5.0Tests */,
+				70D2ED591D6ECF7500D38D07 /* The Gilman News 5.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D2ED311D6ECF7500D38D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D2EDA31D7FC9AD00D38D07 /* Launch Screen.storyboard in Resources */,
+				70D2EDA81D84BE9D00D38D07 /* Assets.xcassets in Resources */,
+				70D2ED441D6ECF7500D38D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED4D1D6ECF7500D38D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED581D6ECF7500D38D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70D2ED2F1D6ECF7500D38D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70843B091E141FB90080548B /* staff.m in Sources */,
+				70D2ED8C1D6EDA9C00D38D07 /* More.m in Sources */,
+				70D2ED9E1D7FC5B900D38D07 /* Past Highlights.m in Sources */,
+				70D2ED6E1D6ED20300D38D07 /* News.m in Sources */,
+				70D2ED711D6ED33500D38D07 /* Today.m in Sources */,
+				70D2ED841D6ED57500D38D07 /* QNC.m in Sources */,
+				70D2ED891D6ED9CD00D38D07 /* Subsribe.m in Sources */,
+				70D2EDEA1D851D5900D38D07 /* fourteenfifteen.m in Sources */,
+				70D2EDF61D8522B900D38D07 /* twelvethirt.m in Sources */,
+				70FE4A1A1D9A3F030083149E /* sportsstats.m in Sources */,
+				70D2EDED1D8520F100D38D07 /* fifteensixteen.m in Sources */,
+				70D2EDF91D85232B00D38D07 /* elevtwelve.m in Sources */,
+				70D2EE0B1D85267200D38D07 /* fivsix.m in Sources */,
+				70D2EE0E1D8526E600D38D07 /* fourfiv.m in Sources */,
+				70D2ED7A1D6ED50A00D38D07 /* Articles.m in Sources */,
+				70FE4A1D1D9B7C730083149E /* subscribeA.m in Sources */,
+				70D2EE171D85289C00D38D07 /* ontwo.m in Sources */,
+				70D2ED801D6ED53700D38D07 /* LTEs.m in Sources */,
+				70D2EDFC1D8523AF00D38D07 /* tenelev.m in Sources */,
+				70D2ED3B1D6ECF7500D38D07 /* AppDelegate.m in Sources */,
+				70D2ED951D6EDBE800D38D07 /* Writers.m in Sources */,
+				70D2EDF31D8521FE00D38D07 /* thirtfourt.m in Sources */,
+				70D2ED7D1D6ED52200D38D07 /* Article Ideas.m in Sources */,
+				70CB285F1D978D57006750A6 /* subscribebutton.m in Sources */,
+				70FE4A141D9A2FE70083149E /* problems.m in Sources */,
+				70D2EDE71D84FDA300D38D07 /* donesegue.m in Sources */,
+				70D2EE111D85279000D38D07 /* thrfour.m in Sources */,
+				70D2EDAB1D84DFA100D38D07 /* ArchivesNEW.m in Sources */,
+				70D2EDFF1D85244A00D38D07 /* ninten.m in Sources */,
+				70D2EE081D85260500D38D07 /* sixsev.m in Sources */,
+				70D2EDA11D7FC5DE00D38D07 /* App Articles.m in Sources */,
+				70D2ED381D6ECF7500D38D07 /* main.m in Sources */,
+				70D2ED981D7FC4B900D38D07 /* App Exclusives.m in Sources */,
+				70D2EE141D8527FC00D38D07 /* twothr.m in Sources */,
+				70D2EDA61D835DC100D38D07 /* GTV.m in Sources */,
+				70D2EE1A1D85291100D38D07 /* zeron.m in Sources */,
+				70D2EE021D8524E500D38D07 /* eightnin.m in Sources */,
+				70D2ED9B1D7FC5A200D38D07 /* Polls.m in Sources */,
+				70FE4A171D9A3E300083149E /* reports.m in Sources */,
+				70D2EE051D85258000D38D07 /* seveight.m in Sources */,
+				70D2ED771D6ED4FA00D38D07 /* Photos.m in Sources */,
+				70D2ED921D6EDB6300D38D07 /* Archives.m in Sources */,
+				70D2ED741D6ED4A600D38D07 /* Submissions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED4B1D6ECF7500D38D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D2ED541D6ECF7500D38D07 /* The_Gilman_News_5_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D2ED561D6ECF7500D38D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D2ED5F1D6ECF7500D38D07 /* The_Gilman_News_5_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70D2ED511D6ECF7500D38D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70D2ED321D6ECF7500D38D07 /* The Gilman News 5.0 */;
+			targetProxy = 70D2ED501D6ECF7500D38D07 /* PBXContainerItemProxy */;
+		};
+		70D2ED5C1D6ECF7500D38D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70D2ED321D6ECF7500D38D07 /* The Gilman News 5.0 */;
+			targetProxy = 70D2ED5B1D6ECF7500D38D07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70D2ED421D6ECF7500D38D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70D2ED431D6ECF7500D38D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70D2ED611D6ECF7500D38D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: REBECCA BOOTH (TL9BB86JQV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: REBECCA BOOTH (TL9BB86JQV)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70D2ED621D6ECF7500D38D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: REBECCA BOOTH (TL9BB86JQV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: REBECCA BOOTH (TL9BB86JQV)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70D2ED641D6ECF7500D38D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Gilman News 5.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		70D2ED651D6ECF7500D38D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Gilman News 5.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		70D2ED671D6ECF7500D38D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The Gilman News 5.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Gilman News 5.0.app/The Gilman News 5.0";
+			};
+			name = Debug;
+		};
+		70D2ED681D6ECF7500D38D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The Gilman News 5.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Gilman News 5.0.app/The Gilman News 5.0";
+			};
+			name = Release;
+		};
+		70D2ED6A1D6ECF7500D38D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: REBECCA BOOTH (AZ2EPA2LU2)";
+				INFOPLIST_FILE = "The Gilman News 5.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Gilman News 5.0";
+			};
+			name = Debug;
+		};
+		70D2ED6B1D6ECF7500D38D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: REBECCA BOOTH (AZ2EPA2LU2)";
+				INFOPLIST_FILE = "The Gilman News 5.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Gilman-News.The-Gilman-News-5-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Gilman News 5.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70D2ED2E1D6ECF7500D38D07 /* Build configuration list for PBXProject "The Gilman News 5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D2ED611D6ECF7500D38D07 /* Debug */,
+				70D2ED621D6ECF7500D38D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D2ED631D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D2ED641D6ECF7500D38D07 /* Debug */,
+				70D2ED651D6ECF7500D38D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D2ED661D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D2ED671D6ECF7500D38D07 /* Debug */,
+				70D2ED681D6ECF7500D38D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D2ED691D6ECF7500D38D07 /* Build configuration list for PBXNativeTarget "The Gilman News 5.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D2ED6A1D6ECF7500D38D07 /* Debug */,
+				70D2ED6B1D6ECF7500D38D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70D2ED2B1D6ECF7500D38D07 /* Project object */;
+}
